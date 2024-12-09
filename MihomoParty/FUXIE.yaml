@@ -152,6 +152,7 @@ rules:
   - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
   - RULE-SET,telegram_ip,📲 Telegram,no-resolve
   - RULE-SET,cn_ip,🎯 全球直连
+  - RULE-SET,custom,🎯 全球直连
   - MATCH,🐟 漏网之鱼
 rule-anchor:
   ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
@@ -182,4 +183,4 @@ rule-providers:
   telegram_ip: {!!merge <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
   netflix_ip: {!!merge <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
 
-  custom: {!!merge <<: *qcy, url: "https://raw.githubusercontent.com/xiaou214/rule/refs/heads/main/MihomoParty/custom.list"}
+  custom:: {!!merge <<: *qcy, url: "https://raw.githubusercontent.com/xiaou214/rule/refs/heads/main/MihomoParty/custom.list"}
