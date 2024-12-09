@@ -182,4 +182,4 @@ rule-providers:
   telegram_ip: {!!merge <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
   netflix_ip: {!!merge <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
 
-  custom: {!!merge <<: *qcy, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/master/AI.list"}
+  custom: {!!merge <<: *qcy, url: "https://raw.githubusercontent.com/xiaou214/rule/refs/heads/main/MihomoParty/custom.list"}
