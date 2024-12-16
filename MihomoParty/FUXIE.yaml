@@ -160,7 +160,7 @@ rule-anchor:
   qcy: &qcy {type: http, interval: 86400, behavior: domain, format: text}
   class: &class {type: http, interval: 86400, behavior: classical, format: text}
 rule-providers: 
-   directLite: {!!merge <<: *qcy, url: "https://raw.githubusercontent.com/xiaou214/rule/refs/heads/main/MihomoParty/DirectLite.list"}
+  directLite: {!!merge <<: *class, url: "https://raw.githubusercontent.com/xiaou214/rule/refs/heads/main/MihomoParty/DirectLite.list"}
   
   private_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   proxylite: {!!merge <<: *class, url: "https://raw.githubusercontent.com/xiaou214/rule/refs/heads/main/MihomoParty/ProxyLite.list"}
