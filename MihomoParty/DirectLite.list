@@ -1,7 +1,6 @@
 # 域名后缀匹配
-DOMAIN-KEYWORD,fab
-DOMAIN-KEYWORD,unrealengine
-DOMAIN-KEYWORD,epicgames
-DOMAIN-KEYWORD,cookielaw
-DOMAIN-KEYWORD,xiaou
-DOMAIN-KEYWORD,xians
+DOMAIN-SUFFIX,fab.com
+DOMAIN-SUFFIX,unrealengine.com
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,xiaou.xin
+DOMAIN-SUFFIX,xians.work
